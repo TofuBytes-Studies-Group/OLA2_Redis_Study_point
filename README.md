@@ -58,7 +58,7 @@ Swagger integration was relatively smooth though as this was a process we've gon
 
 Despite the hiccups with Redis ACLs and key scanning limitations, we now have a fully functional Redis-backed API with proper security and time-bound data expiration. The process highlighted both the power and simplicity of Redis.
 
-Lastly here is a PDF of the working API endpoints: https://github.com/TofuBytes-Studies-Group/OLA2_Redis_Study_point/blob/main/OLA2_Redis_APP_ENDPOINTS.pdf 
+Lastly here is [a PDF of the working API endpoints:](https://github.com/TofuBytes-Studies-Group/OLA2_Redis_Study_point/blob/main/OLA2_Redis_APP_ENDPOINTS.pdf)
 
 ---
 
