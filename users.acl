@@ -1,0 +1,2 @@
+user default on nopass ~* &* 
+user myuser2 on >0fa8c29cde8b36763ed3eeb796c613c3b1dd6594b5ad5c0bcc5d3a9aa7d06b5b ~* +@all

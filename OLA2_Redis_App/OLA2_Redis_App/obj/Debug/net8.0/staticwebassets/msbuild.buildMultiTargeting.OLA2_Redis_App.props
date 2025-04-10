@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OLA2_Redis_App.props" />
+</Project>

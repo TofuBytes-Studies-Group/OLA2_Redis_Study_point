@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "C2Oc0l/xnJTARmpkKR//TrX9s0U20y8meR+mgtU6Qfg=",
+  "Source": "OLA2_Redis_App",
+  "BasePath": "_content/OLA2_Redis_App",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
