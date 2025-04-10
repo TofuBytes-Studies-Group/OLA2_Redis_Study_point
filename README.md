@@ -45,8 +45,7 @@ We opted to **set a password for the default user**, which allowed external conn
 
 Another discovery was that **Redis doesn’t support querying keys like `GET user`** since keys are purely string-based and don’t have types like “users.” Keys had to be manually scanned using `SCAN` with a matching pattern like `user:24hourstolive*`, and TTLs had to be individually fetched using `TTL keyname`.
 ![listing all users with same key and fecthing ttls](3_screen.png)
-- also a showing of our users being deleted after 24 hours as was their TTL set.
-- ![expired ttl](screen_of_expired_TTL.png)
+- also a showing of our users being deleted after 24 hours as was their TTL set. ![expired ttl](screen_of_expired_TTL.png)
 
 Swagger integration was relatively smooth though as this was a process we've gone through numerous times nothing new here to document, Rider sets the majority up for you and we mainly just set up the connectionstrings and endpoints.
 - [Our UsersController](/OLA2_Redis_App/OLA2_Redis_App/Controllers/UsersController.cs)
