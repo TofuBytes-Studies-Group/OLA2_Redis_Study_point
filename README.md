@@ -1,9 +1,9 @@
 # OLA2_Redis_Study_point
 
-# Redis Integration Report – CRUD Operations via C# & Swagger
+# Our Redis Integration Report – With CRUD Operations via C# & Swagger
 
-## Overview
 **Group Members: Jamie & Isak**
+---
 The goal of this implementation was to set up a Redis-based data store and build a simple C# application using Swagger for interaction. The focus was to enable full CRUD (Create, Read, Update, Delete) functionality while adhering to a basic security and expiration policy for stored user data.
 
 We selected these Redis Configurations:
